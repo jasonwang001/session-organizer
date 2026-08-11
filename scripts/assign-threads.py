@@ -15,19 +15,20 @@ GS = os.path.expanduser('~/.codex/.codex-global-state.json')
 SESS_DIR = sys.argv[1] if len(sys.argv) > 1 else os.path.expanduser('~/.codex/sessions/2026/08')
 
 # 索引项目名 → App 项目名（按 local-projects 的 name 匹配；ARCHIVE 归 codex）
+# 注：App 项目已删（空壳/用户确认移除）的主题 → 'codex' 归档
 TARGET = {
     'P001-animated-bar-chart': 'P001-animated-bar-chart',
     'P002-claude-guide': 'P002-claude-guide',
     'P003-horizon-promo': 'P003-horizon-promo',
     'P006-master-thesis': 'P006-master-thesis',
-    'P007-bank-compliance': 'P007-bank-compliance',
+    'P007-bank-compliance': 'codex',           # App 入口已删，归档
     'P015-codex-skills': 'P015-论文研究',
     'P016-gemini-scribe': 'P016-gemini-scribe',
     'P017-related-party-transactions': 'P017-related-party-transactions',
-    'P018-internal-transactions': 'P018-internal-transactions',
-    'P019-overseas-supply-chain': 'P019-overseas-supply-chain',
+    'P018-internal-transactions': 'codex',     # App 入口已删，归档
+    'P019-overseas-supply-chain': 'codex',     # App 入口已删，归档
     'P029-baidu-netdisk-organize': 'P029-网盘整理',
-    'P030-investment-ai-skills': 'P030-金融投资',
+    'P030-investment-ai-skills': 'codex',      # P030 App 项目已删（空壳），归档
     'P031-x-daily-intel': 'P031-X情报',
     'P032-lumina-landing': 'P032-前端官网',
     'P033-workbuddy-maintain': 'P033-系统应用维护',

@@ -49,7 +49,7 @@ def classify(topic):
         for k in keys:
             if k.lower() in t:
                 return proj
-    return None
+    return 'ARCHIVE'
 
 def extract_topic(f):
     for line in open(f, encoding='utf-8', errors='ignore'):
