@@ -1,6 +1,6 @@
 ---
-name: codex-session-organizer
-description: 整理 Codex 会话→项目归集：生成归集索引、同步 App 左侧项目栏（local-projects）、分配会话归属（thread-project-assignments）、清理冗余项目。用户说"整理 codex 会话/会话项目归集/会话没进项目/左侧项目栏没更新/清理 codex 会话"时使用。按工作区规范直接落实，不依赖 CodexCleanUp 交接契约。
+name: session-organizer
+description: 整理 AI 代理（Codex/Hermes）历史会话→项目归集：生成归集索引、同步 App 左侧项目栏（local-projects）、分配会话归属（thread-project-assignments）、清理冗余项目。用户说"整理会话/会话项目归集/会话没进项目/左侧项目栏没更新/清理会话"时使用。按工作区规范直接落实，不依赖 CodexCleanUp 交接契约。
 ---
 
 # Codex 会话归集整理器（Session Organizer）
